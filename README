@@ -30,8 +30,15 @@ Windows installation:
 	'net stop 3proxy').
 
 To build in Linux install git and build-essential packages, use
+
+ubuntu:
+sudo apt-get install build-essential
+
+centos:
 sudo yum group install "Development Tools"
 sudo yum install man-pages
+
+install 3proxy:
 git clone https://github.com/z3apa3a/3proxy
 cd 3proxy
 ln -s Makefile.Linux Makefile
